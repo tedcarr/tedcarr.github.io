@@ -1,0 +1,28 @@
+.absolute .header-bar {
+	position: relative;
+}
+
+.absolute .header-text {
+	display: inline-block;
+}
+
+.absolute .log-out-button {
+	position: absolute;
+	top: 25px;
+	right: 0;
+}
+
+.contact {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background: red;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.contact:hover {
+	background: green;
+	cursor: crosshair;
+}

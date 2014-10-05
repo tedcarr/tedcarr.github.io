@@ -1,0 +1,63 @@
+body {
+	padding: 0 5px 5px 5px;
+}
+.header-bar {
+	position: relative;
+	padding-bottom: 20px;
+
+}
+
+.header-text {
+}
+
+.log-out-button {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+
+}
+
+.left-menu { 
+	position: relative;
+	display: inline-block;
+	border: 11px solid black;
+	border-radius: 5px;
+	width: 220px;
+	vertical-align: top;
+	margin-right: 30px;
+
+}
+
+.friend-finder-button { 
+	display: block;
+	position: relative;
+	width: 165px;
+	margin: 10px auto;
+}
+
+.premium-button {
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.main-content {
+	display: inline-block;
+	width: 75%;
+	vertical-align: top;
+
+
+}
+
+.main-content p {
+
+}
+
+.footer-bar {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.footer-bar p {
+
+}

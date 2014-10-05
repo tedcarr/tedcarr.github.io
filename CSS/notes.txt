@@ -1,0 +1,7 @@
+Positioning elements within containers
+- If we want to put one element on the left, and one on the right, we have a few options:
+	- position: relative on container, position: absolute on element (good!)
+	- multiple inline-block elements, text-align right within them
+
+Center block elements within their container
+- You can use margin: 0 auto;

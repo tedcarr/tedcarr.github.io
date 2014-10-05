@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link href="CSS/ted.css" rel="stylesheet">
 </head>
 <body> 
-<center><div class="container">
-<h1>Hello World.</h1>
-<br />
-
-<button type="button" class="btn btn-default btn-lg">
-  <span class="glyphicon glyphicon-plus"></span> Get Premium
-</button>
-<button type="button" class="btn btn-default btn-lg">
-  <span class="glyphicon glyphicon-off"></span> Log out 
-</button>
-<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown">
-  <span class="glyphicon glyphicon-user"></span>
-    Friend Find
-    <span class="caret"></span>
+<div class="header-bar">
+  <h2 class="header-text">Tumblr</h2> 
+  <button type="button" class="btn btn-default btn-lg log-out-button">
+    <span class="glyphicon glyphicon-off"></span> Log out 
   </button>
-  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">From your school</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">From your city</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">From your country</a></li>
-    <li role="presentation" class="divider"></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Search the World</a></li>
-  </ul>
 </div>
-<br />
-<p>
-<b>
-<footer>
-Footer credits go here
-</footer>
+<div class="left-menu">
+  <div class="friend-finder-button">
+    <button class="btn btn-default dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown">
+      <span class="glyphicon glyphicon-user"></span>
+        Friend Find
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">School</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">City</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Country</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Search the World</a></li>
+    </ul>
+  </div>
+  <button type="button" class="btn btn-default btn-lg premium-button">
+    <span class="glyphicon glyphicon-plus"></span> Get Premium
+  </button>
 </div>
-</center>
+<div class="main-content">
+  <p> 
+    Something nice Something nice Something nice Something nice Something nice Something nice Something nice Something nice Something nice
+    <a href="right_align.html">Learn about right align!</a>
+  </p>
+</div>
+<div class="footer-bar">
+<p> Goodbye </p>
+</div>
 </body>
-
 </html>

@@ -1,63 +1,160 @@
 body {
-	padding: 0 5px 5px 5px;
+   background-color: #EEEEE5;
+   font-family: 'Roboto Slab', serif;
 }
+
+.logo-top {
+	width: 110px;
+	height: 48px;
+}
+
+.header-subtitle {
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	color: rgb(154, 153, 148);
+}
+
 .header-bar {
 	position: relative;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
 
 }
-
-.header-text {
+.header-bar p {
+	position: fixed;
+	top: 0;
+	right: 5px;
+	font-size: 18px;
 }
 
-.log-out-button {
+.logo-text {
+	font-size: 99px;
+}
+.header-text {	
+}
+
+.search-feature {
 	position: absolute;
-	right: 20px;
 	top: 0px;
-
+	right: 22px;
 }
 
-.left-menu { 
+.container {
+	width: 940px;
+	margin: 0 auto;
 	position: relative;
-	display: inline-block;
-	border: 11px solid black;
-	border-radius: 5px;
-	width: 220px;
-	vertical-align: top;
-	margin-right: 30px;
-
-}
-
-.friend-finder-button { 
-	display: block;
-	position: relative;
-	width: 165px;
-	margin: 10px auto;
-}
-
-.premium-button {
-	display: block;
-	margin: 0 auto 10px auto;
 }
 
 .main-content {
-	display: inline-block;
-	width: 75%;
+	vertical-align: 0 auto;
+	/*border-top: 1px solid black;*/
+	border-radius: 0;
 	vertical-align: top;
-
-
+	position: relative;
+	background: url("file:///Users/trevfrank/codinglibrary/tedcarr.github.io/gridbackground.png");
+	background-size: 35px 21px;	
 }
-
 .main-content p {
-
+	display: inline-block;
+	width: 558px;
+	font-size: 18px;
 }
 
+.main-photo {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 0;
+	right: -50px;
+}
+
+.main-text {
+	display: inline-block;
+}
+
+#mac-computer p {
+	left: 600px;
+	position: absolute;
+}
+
+#branching-picture {
+	left: 550px;
+	position: absolute;
+	bottom: 50px;
+}
+
+.lower-menu { 
+	position: relative;
+	display: inline-block;
+	border-top: 1px solid black;
+	border-radius: 0;
+	width: 900px;
+	vertical-align: top;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+.lower-menu p {
+	
+}
 .footer-bar {
 	position: fixed;
 	bottom: 0;
 	right: 0;
 }
-
 .footer-bar p {
+}
+
+#about-pillar {	
+	list-style-type: none;
+	position: relative;
+	bottom: 5px;
+	left: 300px;
+	border-right: 1px solid black;
+	height: 130px;
+	margin-right: 700px;
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 20px;
 
 }
+
+#downloads-pillar {
+	list-style-type: none;
+	position: relative;
+	bottom: 136px;
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#community-pillar {
+	list-style-type: none;
+	position: relative;
+	bottom: 120px;
+	left: 300px;
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#documentation-pillar {
+	list-style-type: none;
+	position: relative;
+	bottom: 230px;
+	border-bottom: 1px solid black;
+	width: 900px;
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.the-book {
+	border-bottom: 1px solid black;
+	position: relative;
+	bottom: 240px;
+
+}
+

@@ -2,40 +2,54 @@
 <html>
 <head>
 <title>Git Site Replica</title>
+<link href="CSS/normalize.css" rel="stylesheet">
 <link href="CSS/ted.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
 </head>
 <body> 
 
 <div class="header-bar">
-  <img src="logo.png" style="width:110px;height:48px"> --fast-version-control
+  <div class="container">
+    <img class="logo-top" src="logo.png"> 
+    <h3 class="header-subtitle">--fast-version-control</h3>
 
-  <form class="search-feature">
-                                <input type="text" placeholder="Search entire site..." required>
-                                <input type="button" value="Search">
-  </form>
-
-
+    <form class="search-feature">
+                                  <input type="text" placeholder="Search entire site..." required>
+                                  <input type="button" value="Search">
+    </form>
+  </div>
 </div>
 
 
 
-<div class="main-content">
-  <p> 
-    Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br />
-    <br />
+<section class="main-content">
+  <div class="container">
+    <section class="main-text">
+      <p class="about-git">
+        Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+        <br />
+        <br />
+        Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
+      </p>
+      <p href="http://www.google.ca" class="try-git-link">
+        <img src="completed-try-git-1d5111823aae2bb9d14fbcb663998353.png" style="width:40px;height:40px">Learn Git in your browser for free with <a href="www.google.ca">Try Git.</a>
+      </p>
+    </section>
 
-Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
-<p><img src="completed-try-git-1d5111823aae2bb9d14fbcb663998353.png" style="width:40px;height:40px">Learn Git in your browser for free with <a href="www.google.ca">Try Git.</a></p>
-  </p>
-</div>
+
+    <section class="main-photo">
+      <img src="branching-illustration@2x.png" style="width:400px;height:250px;">
+    </section>
+  </div>
+</section>
+
+
 <nav id="mac-computer">
   <p>
     <img src="scrnshotmac.png" style="width:250px;height:250px">
     <p>
 </nav>
-<nav id="branching-picture">
-  <img src="branching-illustration@2x.png" style="width:400px;height:250px;">
-</nav>
+
 <div class="lower-menu">
   <nav id="4-pillars">
     <ul>
@@ -64,10 +78,8 @@ Git is easy to learn and has a tiny footprint with lightning fast performance. I
 
 
 <div class="footer-bar">
-<p> Goodbye </p>
-
+  <p> Goodbye </p>
 </div>
-
 
 </body>
 </html>

@@ -54,7 +54,7 @@ body {
 	border-radius: 0;
 	vertical-align: top;
 	position: relative;
-	background: url("file:///Users/trevfrank/codinglibrary/tedcarr.github.io/gridbackground.png");
+	background: url("gridbackground.png");
 	background-size: 35px 21px;	
 }
 .main-content p {

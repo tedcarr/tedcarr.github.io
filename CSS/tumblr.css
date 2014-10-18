@@ -1,0 +1,167 @@
+body {
+	background-color: white;
+}
+
+.main-logo {
+	height: 66px;
+	width: 200px;
+}
+
+.everything-container {
+	border: 10px dashed green;
+}
+
+.big-main-container {
+	border: 5px solid black;
+	padding: 10px;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.top-area-container {
+	border: 5px solid red;
+	margin-left: 180px;
+	margin-right: 180px;
+	
+}
+
+.logo {
+	border: 5px solid blue;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+
+.features {
+	border: 5px solid blue;
+	width: 200px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+.search-bar {
+	border: 5px solid blue;
+	display: inline-block;
+	margin-left: 170px;
+	width: 200px;
+
+}
+
+.main-container {
+	border: 5px solid black;
+	margin-top: 5px;
+	margin-left: 180px;
+	margin-right: 180px;
+	width: 500px;
+
+}
+
+.user-avatar {
+	border: 5px solid blue;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.user-menu {
+	border: 5px solid blue;
+	display: inline-block;
+	margin-left: 20px;
+	width: 320px;
+
+}
+
+.posted-content-container {
+	border: 5px solid orange;
+	width: 500px;
+	display: inline-block;
+	position: relative;
+	top:-180px;
+	margin-left: 180px;
+	height: 800px;
+}
+
+.other-avatar {
+	border: 5px solid blue;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.posted-content {
+	border: 5px solid blue;
+	display: inline-block;
+	margin-left: 40px;
+	width:200px;
+	height: 200px;
+
+}
+
+.side-bar-container {
+	border: 5px solid yellow;
+	margin-top: 5px;
+	width: 300px;
+	display: inline-block;
+	margin-left: 60px;
+	height: 500px;
+
+}
+
+.account-general {
+	border: 5px solid blue;
+}
+
+.account-insights {
+	border: 5px solid blue;
+
+}
+
+.reccomended-blogs {
+	border: 5px solid blue;
+
+}
+
+.featured-post {
+	border: 5px solid blue;
+
+}
+
+.legal {
+	border: 5px solid pink;
+	width: 100px;
+	margin-left: 800px;
+
+
+}
+
+
+
+
+<section class="top-area-container">
+	<div class="logo">
+		Hey
+	</div>
+	<div class="features"></div>
+	<div class="search-bar"></div>
+</section>
+
+<section class="main-container">
+	<div class="user-avatar"></div>
+	<div class="user-menu"></div>
+	<div class="other-avatar"></div>
+	<div class="posted-content"></div>
+</section>
+
+<section class="side-bar">
+	<div class="account-general"></div>
+	<div class="account-insights"></div>
+	<div class="reccomended-blogs"></div>
+	<div class="featured-post"></div>
+</section>
+<section class="legal">
+</section>

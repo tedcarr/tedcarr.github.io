@@ -6,6 +6,7 @@ body {
 .logo-top {
 	width: 110px;
 	height: 48px;
+	margin-top: 10px;
 }
 
 .header-subtitle {
@@ -48,6 +49,52 @@ body {
 	position: relative;
 }
 
+
+.container.sub-main {
+	padding: 500px;
+}
+
+.other-class {
+	padding: 100px;
+}
+
+.sub-main {
+	padding: 18px;
+}
+
+.sub-main div {
+	border: 1px solid blue;
+}
+
+.info-resources {
+	display: inline-block;
+	width: 500px;
+
+}
+
+.index-links {
+
+}
+
+.pro-git-book {
+
+}
+
+.release-downloads {
+	display: inline-block;
+	width: 405px;
+}
+
+.mac-downloads {
+
+}
+
+.other-releases {
+
+}
+
+
+  
 .main-content {
 	vertical-align: 0 auto;
 	/*border-top: 1px solid black;*/
